@@ -14,36 +14,37 @@
     <nav class="bg-white flex justify-between px-4">
         <h1 class="m-4 font-bold text-lg text-black">PSS Financial Services</h1>
         <ul class="sm:flex hidden font-semibold mt-4 text-gray-700 ml-12">
-          <li class="mx-[10px]"><a href="https://pssfinancial.com/aboutus">About Us</a></li>
-          <li class="mx-[10px]"><a href="https://pssfinancial.com/services">Services</a></li>
-          <li class="mx-[10px]"><a href="https://pssfinancial.com/downloads">Knowledge Corner</a></li>
-          <li class="mx-[10px]"><a href="https://pssfinancial.com/contactus">Contact Us</li>
+          <li class="mx-[10px]  hover:text-yellow-600 hover:scale-105"><a href="https://pssfinancial.com/aboutus">About Us</a></li>
+          <li class="mx-[10px] hover:text-yellow-600 hover:scale-105"><a href="https://pssfinancial.com/services">Services</a></li>
+          <li class="mx-[10px] hover:text-yellow-600 hover:scale-105"><a href="https://pssfinancial.com/downloads">Knowledge Corner</a></li>
+          <li class="mx-[10px] hover:text-yellow-600 hover:scale-105"><a href="https://pssfinancial.com/contactus">Contact Us</li>
         </ul>
-        <div class="sm:hidden relative">
-            <button
-                type="button"
-                class="text-yellow-600 font-medium m-3 mt-4"
-                aria-haspopup="true"
-                aria-expanded="false"
-                onclick="toggleMenu()"
-            >
-                Menu
-            </button>
-            <ul
-                class="bg-yellow-100"
-                id="menuList"
-                class="hidden absolute right-0 mt-2 py-2 bg-white border border-gray-300 rounded-md shadow-lg"
-                aria-label="submenu"
-            >
-                <li class="p-1 bg-yellow-100 font-serif font-medium"><a href="https://pssfinancial.com/aboutus">About Us</a></li>
-                <li class="p-1 bg-yellow-100 font-serif font-medium"><a href="https://pssfinancial.com/services">Services</a></li>
-                <li class="p-1 bg-yellow-100 font-serif font-medium"><a href="https://pssfinancial.com/downloads">Knowledge Corner</a></li>
-                <li class="p-1 mb-4 bg-yellow-100 font-serif font-medium"><a href="https://pssfinancial.com/contactus">Contact Us</a></li>
-            </ul>
-        </div>
-        <button class="bg-yellow-100 hover:bg-yellow-300 hover:text-black border-2 border-black text-black rounded-md font-bold p-2 m-2">
+        
+        <button class="bg-yellow-100 hover:bg-yellow-300 shadow-lg shadow-yellow-600 hover:text-black text-black rounded-md font-bold h-10 mt-4 p-2 sm:m-2">
             <a href="https://pssfinancial.com/auth">Login/SignUp</a>
         </button>
+
+        <div class="sm:hidden relative">
+          <button
+              type="button"
+              class="text-yellow-600 font-medium m-3 mt-4"
+              aria-haspopup="true"
+              aria-expanded="false"
+              onclick="toggleMenu()"
+          >
+              Menu
+          </button>
+          <ul
+              class="bg-yellow-100 hidden absolute right-0 mt-2 py-2 p-4 rounded-md shadow-yellow-600 shadow-lg"
+              id="menuList"
+              aria-label="submenu"
+          >
+              <li class="p-1 bg-yellow-100 font-serif font-medium shadow-sm shadow-yellow-800 mt-4 hover:bg-yellow-300 hover:scale-105"><a href="https://pssfinancial.com/aboutus">About Us</a></li>
+              <li class="p-1 bg-yellow-100 font-serif font-medium shadow-sm shadow-yellow-800 hover:bg-yellow-300 hover:scale-105"><a href="https://pssfinancial.com/services">Services</a></li>
+              <li class="p-1 bg-yellow-100 font-serif font-medium shadow-sm shadow-yellow-800 hover:bg-yellow-300 hover:scale-105"><a href="https://pssfinancial.com/downloads">Knowledge Corner</a></li>
+              <li class="p-1 mb-4 bg-yellow-100 font-serif font-medium shadow-sm shadow-yellow-800 hover:bg-yellow-300 hover:scale-105"><a href="https://pssfinancial.com/contactus">Contact Us</a></li>
+          </ul>
+        </div>
     </nav>
   </div>
 
@@ -63,14 +64,11 @@
         <p class="bg-yellow-200  text-gray-700 hover:text-black font-medium text-xl">Free 20-Minute Financial Consultation</p>
         <div class="border-2 border-yellow-300 rounded-md"></div>
     </header>
-    <nav class="bg-yellow-100 flex justify-between">
+    <nav class="bg-yellow-100 flex justify-between p-4">
         <img class="h-9 w-44 rounded-lg mt-5 ml-4" src="logo.png" alt="Logo of Financial Freedom">
-        <a href="#" class="text-gray-900 p-2 border-2 bg-yellow-100 border-black mt-4 rounded-md mr-4 transition-colors duration-300  hover:bg-yellow-300 hover:text-black font-semibold">FREE consultation call</a>
+        <a href="#" class="text-gray-900 p-2 bg-yellow-100 shadow-md mb-2 shadow-yellow-600 mt-4 rounded-md mr-4 transition-colors duration-300  hover:bg-yellow-300 hover:text-black font-semibold">FREE consultation call</a>
     </nav>
-    <main class=" p-1 mt-4 ml-7">
-        <button class="border-2 rounded-full bg-yellow-300 text-black p-[2px] transition-colors duration-300 hover:bg-white hover:text-black">Financial Success</button>
-        <div class="border-yellow-700 w-28 bg-yellow-700 h-[1px] mt-[1px] ml-[10px]  border-[1px] rounded-md"></div>
-    </main>
+  
 
     <section class="flex flex-col sm:grid sm:grid-cols-3 bg-cover bg-center" style="background-image: linear-gradient(rgba(241, 242, 217, 0.9), rgba(249, 255, 158, 0.9)),url(https://media.istockphoto.com/id/1680285819/photo/teamwork-with-business-people-analysis-cost-graph-on-the-desk-in-the-meeting-room-the.webp?b=1&s=170667a&w=0&k=20&c=BiJUxDzoCwOKiYiSqY4BqwB_jfV_4Z1Mf_6eBzbKdFg=)">
         <article class="p-4 ml-4">
@@ -259,8 +257,8 @@
 
 
       <div class="flex flex-col items-center mb-10">
-        <h1 class="text-3xl text-black font-bold mb-5">Drowning in Financial Jargon? Let’s Simplify!</h1>
-        <p class="text-gray-900">No more tangled webs of jargon. Let’s unravel the mysteries of finance together! </p>
+        <h1 class="text-3xl ml-10 sm:ml-0 text-black font-bold mb-5">Drowning in Financial Jargon? Let’s Simplify!</h1>
+        <p class="text-gray-900 ml-10 sm:ml-0">No more tangled webs of jargon. Let’s unravel the mysteries of finance together! </p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 bg-gray-300 mt-8 ml-5 mr-5 rounded-lg">
